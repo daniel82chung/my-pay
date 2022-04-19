@@ -5,7 +5,7 @@ demo:
 primary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://3.39.106.120:3306/demo?useUnicode=true&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://10.104.80.3:3306/demo?useUnicode=true&serverTimezone=Asia/Seoul
     user: root
     password: "!Admin1234"
     initialization-mode: always
@@ -18,9 +18,9 @@ primary:
 secondary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://3.38.75.147:3306/demo?useUnicode=true&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://10.104.80.3:3306/demo?useUnicode=true&serverTimezone=Asia/Seoul
     user: root
-    password: "!Admin1234"
+    password: "root01"
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
